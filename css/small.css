@@ -1,0 +1,121 @@
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+* {
+	font-family: 'Merriweather', serif;
+	font-weight: normal;
+	width: 100%;
+	box-sizing: border-box;
+	left: 0;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	font-size: 1em;
+	vertical-align: middle;
+}
+
+div, header, section, footer {
+	width: 100%;
+	text-align: center;
+}
+
+header {
+	text-align: center;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+footer {
+	padding-top: 2em;
+	padding-bottom: 1em;
+	background-color: #b3b3b3;
+	height: 100%;
+	font-size: 0.8em;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.player {
+	background-color: black;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	display: block;
+	color: white;
+}
+
+.player_project_name {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.player_widget {
+	padding-top: 1em;
+}
+
+.player_widget_button {
+	max-width: 21px;
+}
+
+.player_widget_progress_bar {
+	max-width: 171px;
+}
+
+.tracks {
+	width: 100%;
+	padding-top: 1em;
+}
+
+.tracks_header {
+	width:50%;
+	padding-left: 1em;
+	text-align: left;
+}
+
+.tracks_totals {
+	width:50%;
+	padding-right: 1em;
+	text-align: right;	
+}
+
+.track_list {
+	list-style-type: none;
+	padding-top: 1em;
+}
+
+.track_list_track {
+	padding-left: 1em;
+	padding-right: 1em;
+	height: 3em;
+}
+
+.track_list_order, .track_list_button {
+	width: 21px;
+}
+
+.track_list_track_order {
+	width: 10%;
+	text-align: left;
+}
+
+.track_list_track_name {
+	width: 80%;
+	text-align: left;
+}
+
+.track_list_track_time {
+	width: 10%;
+	text-align: right;
+}
+
+@media screen and (max-width: 200px) {
+	body {
+		width: 200px;
+	}
+}
