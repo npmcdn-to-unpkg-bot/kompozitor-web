@@ -106,16 +106,22 @@ footer {
 .track_list_track_order {
 	width: 10%;
 	text-align: left;
+	height: 3em;
+	line-height: 3em;
 }
 
 .track_list_track_name {
 	width: 80%;
 	text-align: left;
+	height: 3em;
+	line-height: 3em;
 }
 
 .track_list_track_time {
 	width: 10%;
 	text-align: right;
+	height: 3em;
+	line-height: 3em;
 }
 
 @media screen and (max-width: 200px) {
