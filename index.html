@@ -5,97 +5,26 @@
 		<meta charset="utf-8">
 		<meta name=viewport content="width=device-width, initial-scale=1">
 		<link href="https://fonts.googleapis.com/css?family=Merriweather:300,700&subset=latin-ext" rel="stylesheet">
-		<!--link href="http://weloveiconfonts.com/api/?family=fontawesome" rel="stylesheet"-->
 		<link rel="stylesheet" href="css/small.css">
 		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	    <script src="https://npmcdn.com/react@15.3.1/dist/react.js"></script>
+	    <script src="https://npmcdn.com/react-dom@15.3.1/dist/react-dom.js"></script>
+	    <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
+	    <script src="https://npmcdn.com/jquery@3.1.0/dist/jquery.min.js"></script>
+	    <script src="https://npmcdn.com/remarkable@1.6.2/dist/remarkable.min.js"></script>
 	</head>
 	<body class="container">
 		<header>
 			<h1>Kompozitor</h1>
 		</header >
-
-		<section class="player">
-			<h2 class="player_project_name">Record Name</h2>
-			<h3 class="player_song_name">Song A Name</h3>
-			<div class="player_widget">
-				<i class="fak fa-play" aria-hidden="true"></i>
-				<img class="player_widget_progress_bar" src="img/main_progress_bar.png" alt="Progress">
-				<span class="player_widget_time">1:05 / 2:10</span>
-			</div>
-		</section>
-		
-		<section class="tracks container">
-			<div class="tracks_header">
-				<h4>All tracks</h4>
-			</div>
-			<div class="tracks_totals">3 songs : 7:48</div>
-			<ul class="track_list">
-				<li class="track_list_track container">
-					<i class="track_list_track_order fak fa-reorder" aria-hidden="true"></i>
-					<div class="track_list_track_name">Song A Name</div>
-					<div class="track_list_track_time">3:15</div>
-				</li>
-				<li class="track_list_track container">
-					<i class="track_list_track_order fak fa-reorder" aria-hidden="true"></i>
-					<div class="track_list_track_name">Song B Name</div>
-					<div class="track_list_track_time">3:15</div>
-				</li>
-				<li class="track_list_track container">
-					<i class="track_list_track_order fak fa-reorder" aria-hidden="true"></i>
-					<div class="track_list_track_name">Song C Name</div>
-					<div class="track_list_track_time">3:15</div>
-				</li>
-				<li class="track_list_track container">
-					<i class="track_list_track_order fak fa-reorder" aria-hidden="true"></i>
-					<div class="track_list_track_name">Song D Name</div>
-					<div class="track_list_track_time">3:15</div>
-				</li>
-				<li class="track_list_track container">
-					<i class="track_list_track_order fak fa-reorder" aria-hidden="true"></i>
-					<div class="track_list_track_name">Song E Name</div>
-					<div class="track_list_track_time">3:15</div>
-				</li>
-				<li class="track_list_track container">
-					<i class="track_list_track_order fak fa-reorder" aria-hidden="true"></i>
-					<div class="track_list_track_name">Song F Name</div>
-					<div class="track_list_track_time">3:15</div>
-				</li>
-				<li class="track_list_track container">
-					<i class="track_list_track_order fak fa-reorder" aria-hidden="true"></i>
-					<div class="track_list_track_name">Song G Name</div>
-					<div class="track_list_track_time">3:15</div>
-				</li>
-				<li class="track_list_track container">
-					<i class="track_list_track_order fak fa-reorder" aria-hidden="true"></i>
-					<div class="track_list_track_name">Song H Name</div>
-					<div class="track_list_track_time">3:15</div>
-				</li>
-				<li class="track_list_track container">
-					<i class="track_list_track_order fak fa-reorder" aria-hidden="true"></i>
-					<div class="track_list_track_name">Song I Name</div>
-					<div class="track_list_track_time">3:15</div>
-				</li>
-				<li class="track_list_track container">
-					<i class="track_list_track_order fak fa-reorder" aria-hidden="true"></i>
-					<div class="track_list_track_name">Song J Name</div>
-					<div class="track_list_track_time">3:15</div>
-				</li>
-				<li class="track_list_track container">
-					<i class="track_list_track_order fak fa-reorder" aria-hidden="true"></i>
-					<div class="track_list_track_name">Song K Name</div>
-					<div class="track_list_track_time">3:15</div>
-				</li>
-				<li class="track_list_track container">
-					<i class="track_list_track_order fak fa-reorder" aria-hidden="true"></i>
-					<div class="track_list_track_name">Song L Name</div>
-					<div class="track_list_track_time">3:15</div>
-				</li>
-			</ul>
-		</section>
+		<div id="player_widget"></div>
+		<div id="track_list"></div>
 		<footer>
-			<p>
-				Kompozitor is bla bla bla
-			</p>
+			<p>Kompozitor is...</p>
 		</footer>
+		<!--script type="text/babel" src="js/track_list.js"></script>
+		<script type="text/babel" src="js/player_widget.js"></script>
+		<script type="text/babel" src="js/test.js"></script-->
+		<script src="bundle.js"></script>
 	</body>
 </html>
