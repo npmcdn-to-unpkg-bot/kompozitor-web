@@ -29,8 +29,12 @@ footer {
 	padding-top: 2em;
 	padding-bottom: 1em;
 	background-color: #b3b3b3;
-	height: 100%;
+	bottom: 0;
 	font-size: 0.8em;
+}
+
+.joining_node {
+	display: inline-flex;
 }
 
 .fak {
@@ -106,16 +110,22 @@ footer {
 .track_list_track_order {
 	width: 10%;
 	text-align: left;
+	height: 3em;
+	line-height: 3em;
 }
 
 .track_list_track_name {
 	width: 80%;
 	text-align: left;
+	height: 3em;
+	line-height: 3em;
 }
 
 .track_list_track_time {
 	width: 10%;
 	text-align: right;
+	height: 3em;
+	line-height: 3em;
 }
 
 @media screen and (max-width: 200px) {
